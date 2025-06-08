@@ -6,6 +6,23 @@ body{
     flex-direction: column;
 }
 
+header {
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #ddd;
+    padding: 20px 15px;
+}
+
+header a {
+    color: #222;
+    text-decoration: none;
+    padding: 6px 8px;
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: #F80002;
+}
+
 main{
     flex-direction: row;
     flex: auto;
@@ -19,4 +36,75 @@ main > article {
 main > aside{
     flex: 1;
     overflow-y: auto;
+}
+
+.logo {
+    font-size: 40px;
+    color: #F80002;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+article {
+    border: 2px solid #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h1, article h2, article h3 {
+    color: #333;
+}
+
+article p {
+    line-height: 1.7;
+    color: #444;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 4px solid #F80002;
+    border-radius: 4px;
+}
+
+article table {
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+article th, article td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+article th {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+article img {
+    max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px 15px;
+    height: auto;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+}
+
+footer a {
+    color: #F80002;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #c00000;
 }
