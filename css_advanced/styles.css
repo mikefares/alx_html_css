@@ -353,3 +353,60 @@ button{
 #membership #member-container .member-box p{
     font-weight: 100;
 }
+
+/* FAQ section */
+#faq {
+    background-color: #fff;
+    color: #000;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#faq h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#faq > div {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+#faq > div > div {
+    flex-basis: 400px;
+    flex-grow: 1;
+    max-width: 450px;
+    text-align: left;
+}
+
+#faq > div > div > div {
+    margin-bottom: 20px;
+}
+
+#faq > div > div > div:nth-child(even) {
+    margin-bottom: 40px;
+}
+
+#faq > div > div > div h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    opacity: 100%;
+    margin: 0 0 10px 0;
+}
+
+#faq .paragraph {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #071629;
+    opacity: 50.16%; 
+    margin: 0;
+}
