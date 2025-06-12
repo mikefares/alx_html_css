@@ -170,5 +170,31 @@ button{
     line-height: 1.5;
 }
 
+/* Quote section */
 
+#testimonial{
+    background-color: #C271FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 392px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+#testimonial div:last-of-type{
+    width: 730px;
+    margin-left: 53px;
+}
+
+#testimonial div h3{
+    font-weight: bold;
+    margin-top: 33px;
+}
+
+#testimonial div p{
+    font-style: italic;
+}
 
